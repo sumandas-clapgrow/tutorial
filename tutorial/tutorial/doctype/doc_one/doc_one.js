@@ -17,7 +17,7 @@ frappe.ui.form.on("Doc One", {
 
         frm.get_field("summary").$wrapper.html(txt)
     }
-    //cur_frm.get_field("summary").$wrapper.append("hi")
+
 
 });
 
