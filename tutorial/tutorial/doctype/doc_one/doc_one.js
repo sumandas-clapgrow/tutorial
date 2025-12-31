@@ -14,7 +14,6 @@ frappe.ui.form.on("Doc One", {
     get_summary(frm){
         
         let txt = "<h1>"+frm.doc.last_name+"</h1>";
-
         frm.get_field("summary").$wrapper.html(txt)
     }
 
